@@ -46,7 +46,7 @@
 
     
   }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .lamp{
       display: none;
     }
@@ -91,7 +91,7 @@
     .nav-panel .contact-info {
       align-items: center;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     }
   
@@ -169,7 +169,7 @@
     outline: none;
   }
   .nav-panel{
-    background-color: #9b4df3;
+    background-color: #740de9;
   }
   .nav-panel .contact-info {
     align-items: center;
@@ -255,3 +255,11 @@
     display: block;
 }
 }
+
+@media (min-width: 768px) {
+  .d-flex {
+    display: flex-nowrap !important;
+  }
+}
+  
+
